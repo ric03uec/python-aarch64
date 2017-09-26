@@ -1,0 +1,5 @@
+FROM drydockaarch64/u16:master
+
+MAINTAINER Devashish "devashish@shippable.com"
+
+RUN ls -alh
