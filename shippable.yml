@@ -15,4 +15,4 @@ build:
     - docker info
     - docker ps -a
     - docker images
-    - docker build -t ric03uec/python-aarch64:ci -f Dockerfile.aarch64
+    - docker build -t ric03uec/python-aarch64:ci -f Dockerfile.aarch64 .
